@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Curriculum Vitae -- downloadable copy
+title: Curriculum Vitae
 menuitem: CV
 permalink: /CV/
 ---
 
-Note that you can find all the general career-related information on my LinkedIn [profile](https://www.linkedin.com/in/{{ site.linkedin_username }}). In case you are interested in any details, or if the service is just not available in your country -- please let me know, I will provide an up-to-date PDF. 
+Please refer to my LinkedIn [profile](https://www.linkedin.com/in/{{ site.linkedin_username }}) for general career-related information. If it is not available in your country, or you are interested in details -- please, let me know, I will provide an up-to-date PDF. 
