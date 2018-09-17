@@ -1,0 +1,15 @@
+<ul class="menu">
+    {% for itm in site.data.menu %}
+    {% if itm.subcategories != null %}
+    <li><a href="{{ itm.href }}" class="page-link">{{ itm.title }}</a>
+        <ul class="sub-menu">
+            {% for subcategory in itm.subcategories %}
+            <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <li><a href="{{ itm.href }}" class="page-link">{{ itm.title }}</a>
+            {% endif %}
+        </li>
+        {% endfor %}
+</ul>

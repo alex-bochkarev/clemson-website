@@ -1,0 +1,35 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><i>{{ site.email }}</i></li>
+            {%- endif -%}
+            Text me: <a href="https://t.me/{{ site.telegram_username }}"> Telegram </a>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+          <p> <b>Office:</b> Freeman Hall, 278 <br>
+              Clemson University, Clemson, SC 29634-0920</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

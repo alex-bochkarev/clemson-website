@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1><a href="{{ "/" | absolute_url }}">{{ site.title  }}</a></h1>
+                
+                {% if site.logo %}
+                <img src="{{site.logo | relative_url}}" alt="Logo" />
+                {% endif %}
+
+                <p>This is a description</p>
+
+                <p class="view"><a href="ya.ru">Some page link</a></p>
+
+            </header>
+            <section>
+
+                {{ content }}
+
+            </section>
+            <footer>
+                this is a footer test
+            </footer>
+        </div>
+    </body>
+</html>
