@@ -59,7 +59,14 @@ img {
   vertical-align: middle;
 }
 
-
+.img-av {
+    border-radius: 50%;
+//    max-width: 30%;
+    horizontal-align: left;
+    float: left;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
 
 /**
  * Figures
@@ -89,6 +96,9 @@ li {
 }
 
 
+.std{
+    margin-left: 20px;
+}
 
 /**
  * Headings
@@ -255,3 +265,17 @@ table {
 
 
 // AB's customizations
+
+.left {
+    float: left;
+    width: 30%;
+}
+.right {
+    float: right;
+    width: 65%;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
