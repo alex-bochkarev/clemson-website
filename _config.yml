@@ -34,9 +34,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# A menu item appears when you add a page here
 header_pages:
   - about.md
   - CV.md
+  - ts.md
   - Contact.md
 
 # Exclude from processing.
