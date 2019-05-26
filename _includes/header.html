@@ -23,7 +23,7 @@
             {%- if page.menuitem == my_page.menuitem -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">【 {{ my_page.menuitem | escape }} 】</a>
             {%- else -%}
-            {%- if page.menuid == my_page.menuitem -%} (∊) {%- endif -%} <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menuitem | escape }}</a>
+            {% if page.menuid == my_page.menuitem %} (∊) {% endif %} <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menuitem | escape }}</a>
             {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
