@@ -15,19 +15,19 @@ I am a PhD student in [Industrial Engineering](https://www.clemson.edu/cecas/dep
     </div>
     
     <div class="left">
-        <img src="/assets/ab.jpg" alt="" class="img-av">
+        <img src="/assets/ab_v2.jpg" alt="" class="img-av">
     </div>
 </div>
 <br>
 
-**Key programming languages:** R ⋄ Python ⋄ Matlab
+**Key programming languages:** &nbsp; &nbsp; R ⋄ Python ⋄ C++ ⋄ Matlab
 
 **Selected applied skills and expertise:**
 - state-of-art MS Excel modeling (incl. VBA);
 - professional presentations preparation;
-- benchmarking;
-- electric energy / transmission grids.
+- performance benchmarking;
+- electric energy / transmission and distribution grids.
 
-**Writing environment / tools:** LaTeX, orgmode
+**Writing environment / tools:** LaTeX, orgmode, jupyter notebook
 
 <!-- permalink: /summary/ -->
