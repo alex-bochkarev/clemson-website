@@ -40,6 +40,7 @@ header_pages:
   - about.md
   - CV.md
   - edu.md
+  - tools.md
   - Contact.md
 
 # Exclude from processing.
