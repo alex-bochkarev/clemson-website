@@ -8,7 +8,7 @@ permalink: /contact/
 - **email (preferred):** abochka (at) g (dot) clemson (dot) edu
 - **GPG key**<sup>[what?](https://help.ubuntu.com/community/GnuPrivacyGuardHowto#Introduction)</sup>*:* [🔑](/assets/abochka-pubkey.asc)
 - **office:** Freeman Hall, 278 (feel free to drop by when I am there)
-- **telegram**<sup>[what?](https://telegram.org/faq#q-how-is-telegram-different-from-whatsapp)</sup>**:** [@abochka](https://t.me/{{ site.telegram_username }})
+- **messengers:** [@abochka](https://t.me/{{ site.telegram_username }}) in telegram<sup>[what?](https://telegram.org/faq#q-how-is-telegram-different-from-whatsapp)</sup>  or wire<sup>[what?](https://wire.com/en/products/personal-secure-messenger/)</sup>
 - **twitter:** [@a_bochka](https://twitter.com/a_bochka)
 - **on phone numbers:** please note that my Russian phone numbers and corresponding WhatsApp account might be not always available. Although, I tend to respond to emails pretty fast.
 
